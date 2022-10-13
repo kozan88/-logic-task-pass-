@@ -1,0 +1,39 @@
+Q1
+orig_str = 'Hello , < there'
+new_str = ' '
+for char in orig_str:
+   if char != '< ':
+  new_str += char
+Q2
+start = int ( input ( " start: "))
+end = int ( input (" end: "))
+if start > 1:
+  count = 0
+for i in range (start , end + 1):
+   if i > 1:
+for j in range (2,i):
+   if i % j == 0 :
+    break
+  else:
+ count += 1
+print ( i , end = " " )
+else:
+  print( " invaald start ")
+Q3
+def myFun():
+  string = input("enter a string")
+  Last = []
+  for data in string:
+    if data not in lst: 
+      lst.append(data)
+  for char in lst:
+    print(char, " ", string.count(char), " times")
+for passing parameter
+ python
+def myFun(myString):
+  Last = []
+  for data in myString:
+    if data not in lst: 
+      lst.append(data)
+  for char in lst:
+    print(char, " ", myString.count(char), " times")
